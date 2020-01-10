@@ -1,0 +1,7 @@
+README.md
+setup.py
+textnet/__init__.py
+textnet.egg-info/PKG-INFO
+textnet.egg-info/SOURCES.txt
+textnet.egg-info/dependency_links.txt
+textnet.egg-info/top_level.txt
