@@ -20,17 +20,6 @@ import json
 import nltk
 from nltk.collocations import *
 
-### Beautiful Soup and Urllib
-### for scrapping of web data and parsing xml files
-from urllib.request import urlopen
-# urllib and requests do basically the same, but my preferences are changing all the time, so let's import both
-from urllib.parse import quote  
-import requests
-from bs4 import BeautifulSoup
-### in some cases I prefer Element Tree
-import xml.etree.cElementTree as ET
-
-
 ### for visualization
 # in some cases I use matplotlib, which is much easier to configure, elsewhere I prefer Plotly, which is more "sexy"
 import matplotlib.pyplot as plt
