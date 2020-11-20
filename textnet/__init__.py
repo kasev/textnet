@@ -27,9 +27,6 @@ from PIL import Image
 
 import seaborn as sns
 
-### to generate wordcloud data
-from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator, get_single_color_func
-
 # There is a lot of changes in Plotly nowadays. Perhaps some modifications of the code will be needed at some point
 import plotly
 import plotly.graph_objs as go
