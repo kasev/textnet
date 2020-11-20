@@ -36,6 +36,7 @@ plotly.offline.init_notebook_mode(connected=True)
 ### for network analysis
 import networkx as nx
 
+
 def network_formation_df(dataset, column, book_abbr, lexicon_size, threshold):
     '''From a dataframe with rows corresponding to individual documents,
     to be subsellected on the basis of author's name column, for instance'''
